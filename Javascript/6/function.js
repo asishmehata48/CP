@@ -11,3 +11,10 @@ const greet = function() {
 };
 
 greet();
+
+// arrow function
+const greet = () => {
+    console.log("Hello from arrow function!");
+};
+
+greet();
