@@ -3,3 +3,11 @@ function greet() {
 }
 
 greet(); // Calling the function
+
+
+// function expression
+const greet = function() {
+    console.log("Hello from function expression!");
+};
+
+greet();
