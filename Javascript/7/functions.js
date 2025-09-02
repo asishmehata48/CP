@@ -33,3 +33,11 @@ function showGlobal() {
 }
 
 showGlobal(); // I am global
+
+
+// block scope
+{
+    let blockVar = "Inside block";
+    console.log(blockVar); // Works
+}
+// console.log(blockVar); // Error: blockVar is not defined
