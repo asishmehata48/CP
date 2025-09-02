@@ -13,3 +13,13 @@ function multiply(x, y) {
 
 let result = multiply(4, 5);
 console.log("Result:", result);
+
+
+//scoping
+// local scope
+function test() {
+    let localVar = "I am local";
+    console.log(localVar);
+}
+test();
+// console.log(localVar); // Error: localVar is not defined
