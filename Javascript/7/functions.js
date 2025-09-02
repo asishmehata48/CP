@@ -23,3 +23,13 @@ function test() {
 }
 test();
 // console.log(localVar); // Error: localVar is not defined
+
+
+// global scope
+let globalVar = "I am global";
+
+function showGlobal() {
+    console.log(globalVar);
+}
+
+showGlobal(); // I am global
