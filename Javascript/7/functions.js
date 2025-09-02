@@ -4,3 +4,12 @@ function add(a, b = 5) {
 
 console.log(add(10));     // 15 (b uses default value)
 console.log(add(10, 20)); // 30
+
+
+
+function multiply(x, y) {
+    return x * y;
+}
+
+let result = multiply(4, 5);
+console.log("Result:", result);
